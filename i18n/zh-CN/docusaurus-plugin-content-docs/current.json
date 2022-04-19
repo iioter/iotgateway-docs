@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.IoTGateway": {
+    "message": "IoTGateway",
+    "description": "The label for category IoTGateway in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.IoTSharp": {
+    "message": "IoTSharp",
+    "description": "The label for category IoTSharp in sidebar tutorialSidebar"
+  }
+}
