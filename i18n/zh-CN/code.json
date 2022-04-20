@@ -60,11 +60,11 @@
         "description": "The ARIA label for the blog posts pagination"
     },
     "theme.blog.post.paginator.newerPost": {
-        "message": "Newer Post",
+        "message": "上一篇",
         "description": "The blog post button label to navigate to the newer/previous post"
     },
     "theme.blog.post.paginator.olderPost": {
-        "message": "Older Post",
+        "message": "下一篇",
         "description": "The blog post button label to navigate to the older/next post"
     },
     "theme.blog.sidebar.navAriaLabel": {
