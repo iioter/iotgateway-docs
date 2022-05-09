@@ -5,6 +5,8 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
+import WX from "../../static/img/qrcode.jpg";
+import QQ from "../../static/img/qq.png";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,6 +15,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -28,6 +31,10 @@ function HomepageHeader() {
             教程
           </Link>
         </div>
+    <div>
+      <img src={WX} width="150" alt="微信公众号" />
+      <img src={QQ} width="150" alt="QQ群"/>
+    </div>
       </div>
     </header>
   );
