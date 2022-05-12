@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            href="http://42.193.160.84:518/"
+            href="http://iotgateway.net:518/"
           >
             在线体验
           </Link>

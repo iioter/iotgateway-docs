@@ -24,8 +24,8 @@ tags: [iiotgateway, iotgateway, iot]
 3. 项目地址
 * github:[iotgateway](https://github.com/iioter/iotgateway/) 
 * gitee:[iotgateway](https://gitee.com/iioter/iotgateway/)
-* 项目文档:http://42.193.160.84/
-* 在线体验:http://42.193.160.84:518/
+* 项目文档:http://iotgateway.net/
+* 在线体验:http://iotgateway.net:518/
 
 ## 开源网关具有以下特点
 * ### 跨平台运行
