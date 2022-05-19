@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: 编译运行
 ---
 
 # 编译运行
@@ -50,15 +51,15 @@ docker stop iotsharp
 
 `IoTSharp`项目设为启动项目，运行
 
-![源码启动](/img/iotsharp/project-appsettings.png)
+![源码启动](./images/source-start.png)
 
 
 ## 访问后台前端
 等待一会，浏览器自动弹出后台前端，可以看到后台组件运行状态，以及swagger的webapi页面
 
-![访问后台前端](/img/iotsharp/bgweb.png)
+![访问后台前端](./images/be-fe.png)
 
 ## 访问前端
 要有耐心，大概5分钟左右，angular编译完成，会弹出一个新的前端
-![访问前端](/img/iotsharp/font-login.png)
+![访问前端](./images/fe.png)
 

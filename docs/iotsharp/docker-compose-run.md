@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: docker运行
 ---
 
 # docker运行
@@ -31,23 +32,23 @@ influxdb_cli:
 docker-compose up -d
 ```
 看到下图说明运行成功
-![docker-compose启动成功](/img/iotsharp/docker-run.png)
+![docker-compose启动成功](./images/rabbit_mongo_influx.png)
 
 ## 初始化influxdb
 
 浏览器访问 `http://localhost:8086/`，初始化influxdb
 
-![初始化influxdb](/img/iotsharp/influxdb-ini.png)
+![初始化influxdb](./images/influx.png)
 
 Org: `iotsharp`  Bucket: `iotsharp-bucket`
 
 然后点`Config Later`
 
 ## 创建token
-![添加token](/img/iotsharp/influxdb-addtoken.png)
+![添加token](./images/token.png)
 
 ## 复制token
-![复制token](/img/iotsharp/influxdb-copytoken.png)
+![复制token](./images/copy-token.png)
 
 ## 修改配置文件
 
@@ -68,10 +69,10 @@ docker restart iotsharp
 
 Chrome浏览器访问 `http://localhost:2927/`
 
-![注册](/img/iotsharp/iotsharp-regeist.png)
+![注册](./images/regist.png)
 
 
 ## 访问
 注册后登入进入首页
-![访问](/img/iotsharp/iotsharp-dashboard.png)
+![访问](./images/login.png)
 

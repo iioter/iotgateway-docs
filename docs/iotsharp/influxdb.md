@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: influxdb查询
 ---
 
 # influxdb查询遥测
@@ -7,5 +8,5 @@ sidebar_position: 5
 浏览器访问 `http://localhost:8086/`
 
 
-![influxdb数据](/img/iotsharp/influxdb-data.png)
+![influxdb数据](./images/influx-search.png)
 

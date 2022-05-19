@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: 网关接入
 ---
 
 # 网关接入
@@ -14,20 +15,21 @@ sidebar_position: 4
 ## 添加网关
 
 注意`设备类型`、`认证方式`
-![添加网关](/img/iotsharp/add-gateway.png)
+![添加网关](./images/add-gateway.png)
 
 ## 复制网关token
 
-![复制网关token](/img/iotsharp/gateway-token.png)
+![复制网关token](./images/copy-access.png)
 
 
 ## 修改网关配置
 
 
-![修改网关配置](/img/iotsharp/gateway-config.png)
+![修改网关配置](./images/config-gateway.png)
 
 ## 刷新iotsharp页面
 
 `IoTSharp`设备列表可以看到，一个网关2个设备均已在线
 
-![设备在线](/img/iotsharp/gateway-online.png)
+![设备在线](./images/refresh-iotsharp.png
+)

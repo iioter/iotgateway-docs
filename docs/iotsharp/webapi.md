@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: webapi查询
 ---
 
 # webapi查询遥测
@@ -8,17 +9,17 @@ sidebar_position: 5
 
 
 ## 登录
-![登录](/img/iotsharp/webapi-login.png)
+![登录](./images/webapi-login.png)
 复制返回的access_token
 
 ## 认证
-![认证](/img/iotsharp/webapi-auth.png)
+![认证](./images/webapi-auth.png)
 
 ## 获取设备id
-![获取设备id](/img/iotsharp/webapi-deviceid.png)
+![获取设备id](./images/get-deviceid.png)
 
 
 ## 获取设备最新遥测数据
 调用`/api/Devices/{deviceId}/TelemetryLatest`
 
-![获取设备最新遥测数据](/img/iotsharp/webapi-telemetry.png)
+![获取设备最新遥测数据](./images/webapi-search.png)
