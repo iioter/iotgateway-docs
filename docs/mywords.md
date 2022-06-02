@@ -16,5 +16,5 @@ title: 关于IoTGateway
 ## 打赏请留言
 |   微信 |   支付宝  |
 | ------ | ---- |
-| ![微信公众号](./images/wx-pay.jpg) | ![qq](./images/ali-pay.png) |
+| ![微信赞赏](./images/wx-pay.jpg) | ![支付宝收款](./images/ali-pay.png) |
 
