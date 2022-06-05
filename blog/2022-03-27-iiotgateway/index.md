@@ -1,7 +1,7 @@
 ---
 slug: IIoTGateway
 title: 网关介绍
-authors: [whd]
+authors: [iioter]
 tags: [iiotgateway, iotgateway, iot]
 ---
 

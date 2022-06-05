@@ -58,20 +58,20 @@ title: 驱动简介
 :::info 说明
 > 你可以有多个读取数据的方法，只要加上```MethodAttribute```即可识别
 >  
-> ```DriverAddressIoArgModel.Address```是通过前端传入的地址，你可以发挥想象(如使用逗号分隔符)**传入更过的内容**
+> ```DriverAddressIoArgModel.Address```是通过前端传入的地址，你可以发挥想象(如使用逗号分隔符)**传入更多的内容**
 > 
 > ```DriverAddressIoArgModel.ValueType```是通过前端传入的数据类型，你可以选择是否使用它
 > 
 >```DriverReturnValueModel.Value``` 是```object```类型，你可以传出任何类型，或者与```DriverAddressIoArgModel.ValueType```呼应起来
 :::
 
-1. 断开
+4. 断开
    ``` csharp
    public bool Close(){
         
     }
    ```
-2. 释放
+5. 释放
    ``` csharp
    public void Dispose(){
         

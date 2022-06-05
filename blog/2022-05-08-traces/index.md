@@ -1,7 +1,7 @@
 ---
 slug: Traces
 title: 链路追踪
-authors: [whd]
+authors: [iioter]
 tags: [iiotgateway, Traces, iot]
 ---
 
