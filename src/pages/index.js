@@ -26,7 +26,7 @@ function HomepageHeader() {
           |
           <Link
             className="button button--secondary button--lg"
-            href="http://iotgateway.net:518/"
+            href="http://online.iotgateway.net/"
           >
             在线体验
           </Link>
