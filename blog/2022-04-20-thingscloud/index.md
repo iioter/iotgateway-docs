@@ -1,7 +1,7 @@
 ---
 slug: ThingsCloud
 title: ThingsCloud
-authors: [whd]
+authors: [iioter]
 tags: [iiotgateway, thingscloud, iot]
 ---
 
