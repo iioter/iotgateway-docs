@@ -30,6 +30,13 @@ function HomepageHeader() {
           >
             在线体验
           </Link>
+          |
+          <Link
+            className="button button--secondary button--lg"
+            href="/docs/hardware/selection"
+          >
+            硬件选型
+          </Link>
         </div>
         <div className={styles.buttons}>
           <table>
