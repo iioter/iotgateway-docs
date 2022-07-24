@@ -118,10 +118,7 @@ J22 USB micor-B接口, 主要用来eMMC的烧录, 如何烧录, 请参考章节:
 IIoT-A080提供了丰富的无线通信支持, 支持双频WiFi, 蓝牙5.0和可选的4G LTE全网通通信支持.
 
 ### 双频WiFi
-客户可选购带WiFi版本的IIoT-A080, 支持 2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac 双频WiFi. 我们提供双频外置天线, 已与Raspberry Pi CM4一起通过无线认证.
-
-### 使能WiFi功能
-WiFi功能默认是屏蔽的, 客人首先需要设置国家区域后才可使用. 若使用桌面版系统, 可参考 章节: 初始化设置, 配置WiFi, 若使用Lite版系统, 请使用 raspi-config 设置WiFi国家区域, 参考文档: "Raspberry Pi官方文档 - Using the Command Line"(opens new window)
+客户可选购带WiFi版本的IIoT-A080, 支持 2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac 双频WiFi. 我们提供双频外置天线, 已通过无线认证.
 
 ### 外置天线 / 内置PCB天线
 可以通过软件配置, 来切换使用外置天线还是内置PCB天线. 考虑到兼容性和最广泛的支持性, 出厂默认系统是选用的内置PCB天线, 若客户选配带外壳的整机, 并配置了外置天线, 可以通过以下操作来切换:
@@ -247,7 +244,7 @@ IIoT-A080上有一路CAN总线, 通过SPI扩展. 对应Linux网络设备是can0.
 
 CAN的配置, 请参考下述命令的帮助:
 ```
-pi@raspberrypi:~ $ ip link set can0 type can help
+ip link set can0 type can help
 Usage: ip link set DEVICE type can
         [ bitrate BITRATE [ sample-point SAMPLE-POINT] ] |
         [ tq TQ prop-seg PROP_SEG phase-seg1 PHASE-SEG1
