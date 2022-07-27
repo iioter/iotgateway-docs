@@ -9,7 +9,7 @@ title: Docker运行
 ```
 ## amd64(阿里仓)
 ``` bash
- docker run -d -p 518:518 -p 1888:1888 -p 62541:62541 -p 503:503 --name iotgateway --restart always registry.cn-hangzhou.aliyuncs.com/wanghaidong/iotgateway
+ docker run -d -p 518:518 -p 1888:1888 -p 62541:62541 -p 503:503 --name iotgateway --restart always registry.cn-hangzhou.aliyuncs.com/iotgateway/iotgateway
 ```
  
 ## arm64(官方仓)
@@ -18,5 +18,5 @@ title: Docker运行
  ```
 ## arm64(阿里仓)
 ``` bash
- docker run -d -p 518:518 -p 1888:1888 -p 62541:62541 -p 503:503 --name iotgateway --restart always registry.cn-hangzhou.aliyuncs.com/wanghaidong/iotgateway:arm
+ docker run -d -p 518:518 -p 1888:1888 -p 62541:62541 -p 503:503 --name iotgateway --restart always registry.cn-hangzhou.aliyuncs.com/iotgateway/iotgateway:arm
 ```
