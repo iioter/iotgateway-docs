@@ -25,11 +25,12 @@ title: 网关选型
 - 下列型号均有"**蓝牙BLE 5.0**、**Wi-Fi**"
 - 搭载**Linux**操作系统
 - 下面为**样品零售价格**，批量私聊
-- 时间关系，目前只整理了 [A080](/docs/hardware/A080/introduction) 型号的资料，其他用法差不多，后续会更新
+- 时间关系，目前只整理了 [A080](/docs/hardware/A080/introduction)、[B100](/docs/hardware/B100/introduction) 型号的资料，其他用法差不多，后续会更新
+- 淘宝店是:[https://iotgateway.taobao.com/](https://iotgateway.taobao.com/)
 
-| 型号 | 触摸屏 | USB |  网口 |通讯口| SD扩展 | 4G  |  电源|RTC|价格|
+| 型号 | 触摸屏 | USB |  网口 |通讯口| SD扩展 | 4G  |  电源|RTC|价格(购买地址)|
 | ------ | ---- |---- |---- |---- |------ | ---- |---- |---- |---- |
 | D070 | 无 | 4 | 千兆×1 | 无 |无|无| 5V|无|900|
-| [A080](/docs/hardware/A080/introduction) | 无 | 2 | 千兆×1 | 232×1;485×4;can×1 |有|可选|12V|有|1200|
-| B100 | 无 | 2 | 百兆×1;千兆×1 | 232×1;485×1 |有|可选|12V|有|1350|
+| [A080](/docs/hardware/A080/introduction) | 无 | 2 | 千兆×1 | 232×1;485×4;can×1 |有|可选|12V|有|[1200](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13769403149.4.67fb40c29fW8sO&id=679535257919)|
+| [B100](/docs/hardware/B100/introduction) | 无 | 2 | 百兆×1;千兆×1 | 232×1;485×1 |无|可选|12V|有|[1350](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-13769403149.2.487440c2LpWLE0&id=679174732349)|
 | C210 | 10寸电容 | 2 | 千兆×1 | 232×4;485×2 |有|可选| 6~36V|有|3050|

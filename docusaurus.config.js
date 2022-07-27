@@ -78,6 +78,11 @@ const config = {
             label: "Gitee",
             position: "right",
           },
+          {
+            href: "https://iotgateway.taobao.com/",
+            label: "淘宝店",
+            position: "right",
+          },
         ],
       },
       footer: {
@@ -116,15 +121,19 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
+              {
+                label: "淘宝买硬件",
+                to: "https://iotgateway.taobao.com/",
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} IoTGateway by whd.`,
+        copyright: `Copyright © ${new Date().getFullYear()} IoTGateway by Sam.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['csharp'],
+        additionalLanguages: ["csharp"],
       },
     }),
   i18n: {

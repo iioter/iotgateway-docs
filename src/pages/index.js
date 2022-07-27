@@ -37,6 +37,13 @@ function HomepageHeader() {
           >
             硬件选型
           </Link>
+          |
+          <Link
+            className="button button--secondary button--lg"
+            href="https://iotgateway.taobao.com/"
+          >
+            淘宝店          
+          </Link>
         </div>
         <div className={styles.buttons}>
           <table>
