@@ -7,6 +7,7 @@ import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import WX from "../../static/img/qrcode.jpg";
 import QQ from "../../static/img/qq.png";
+import WXGroup from "../../static/img/wxgroup.png";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -54,11 +55,12 @@ function HomepageHeader() {
                   <a
                     style={{ color: "white" }}
                     target="_blank"
-                    href="https://qm.qq.com/cgi-bin/qm/qr?k=e3Y8biyVdhDxx3LPbjvNY3TSNOEAmjp7&jump_from=webapi"
+                    href="https://jq.qq.com/?_wv=1027&k=mus0CV0W"
                   >
-                    QQ群(712105424)
+                    QQ群(895199932)
                   </a>
                 </th>
+                <th>微信群</th>
               </tr>
             </thead>
             <tbody>
@@ -68,6 +70,9 @@ function HomepageHeader() {
                 </td>
                 <td>
                   <img src={QQ} width="150" alt="QQ群(712105424)" />
+                </td>
+                <td>
+                  <img src={WXGroup} width="150" alt="微信群" />
                 </td>
               </tr>
             </tbody>

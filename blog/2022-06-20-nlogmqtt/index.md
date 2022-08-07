@@ -228,6 +228,6 @@ thread.Start();
 [3] NLog自定义Target:*https://github.com/NLog/NLog/wiki/How-to-write-a-custom-target*
 
 ## 交流
-| 公众号:工业物联网网关 |    [QQ群:712105424](https://qm.qq.com/cgi-bin/qm/qr?k=e3Y8biyVdhDxx3LPbjvNY3TSNOEAmjp7&jump_from=webapi)  |
+| 公众号:工业物联网网关 |    [QQ群:895199932](https://jq.qq.com/?_wv=1027&k=mus0CV0W)  |
 | ------ | ---- |
 | ![wx](../../static/img/qrcode.jpg) | ![qq](../../static/img/qq.png) |

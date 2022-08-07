@@ -137,6 +137,6 @@ app.Run();
 [6] opentelemetry文章:*https://mp.weixin.qq.com/s?__biz=MzAwNTMxMzg1MA==&mid=2654082294&idx=7&sn=472afb8235cd1dee322641b8add3e77c&chksm=80d830a3b7afb9b5dbba5cabe072a310820c75acf2097ad138c07b0792eab91ffbf340b43741&token=348599805&lang=zh_CN#rd*
 
 ## 交流
-| 公众号:工业物联网网关 |    [QQ群:712105424](https://qm.qq.com/cgi-bin/qm/qr?k=e3Y8biyVdhDxx3LPbjvNY3TSNOEAmjp7&jump_from=webapi)  |
+| 公众号:工业物联网网关 |    [QQ群:895199932](https://jq.qq.com/?_wv=1027&k=mus0CV0W)  |
 | ------ | ---- |
 | ![wx](../../static/img/qrcode.jpg) | ![qq](../../static/img/qq.png) |
