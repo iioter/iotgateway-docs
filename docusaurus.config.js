@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} IoTGateway by Sam.`,
+        copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021013661号</a>',
       },
       prism: {
         theme: lightCodeTheme,
