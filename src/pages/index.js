@@ -5,9 +5,9 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
-import WX from "../../static/img/qrcode.jpg";
-import QQ from "../../static/img/qq.png";
 import WXGroup from "../../static/img/wxgroup.png";
+import QQ from "../../static/img/qq.png";
+import WX from "../../static/img/qrcode.jpg";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -50,7 +50,7 @@ function HomepageHeader() {
           <table>
             <thead>
               <tr>
-                <th>微信公众号</th>
+                <th>微信扫我进群</th>
                 <th>
                   <a
                     style={{ color: "white" }}
@@ -60,19 +60,19 @@ function HomepageHeader() {
                     QQ群(895199932)
                   </a>
                 </th>
-                <th>微信群</th>
+                <th>微信公众号</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>
-                  <img src={WX} width="150" alt="微信公众号" />
+                  <img src={WXGroup} width="150" alt="微信扫我进群" />
                 </td>
                 <td>
                   <img src={QQ} width="150" alt="QQ群(712105424)" />
                 </td>
                 <td>
-                  <img src={WXGroup} width="150" alt="微信群" />
+                  <img src={WX} width="150" alt="微信公众号" />
                 </td>
               </tr>
             </tbody>

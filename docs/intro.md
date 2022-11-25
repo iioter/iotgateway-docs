@@ -20,7 +20,7 @@ title: IoTGateway 简介
 
 | 公众号:工业物联网网关 |    [QQ群:895199932](https://jq.qq.com/?_wv=1027&k=mus0CV0W)  |
 | ------ | ---- |
-| ![wx](./images/wx.jpg) | ![qq](./images/qq.png) |
+| ![wx](../static/img/wxgroup.png) | ![qq](./images/qq.png) |
 
 ## 南向
 - 支持设备数据写入

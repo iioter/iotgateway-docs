@@ -83,6 +83,11 @@ const config = {
             label: "淘宝店",
             position: "right",
           },
+          {
+            href: "https://space.bilibili.com/68774245/",
+            label: "视频教程",
+            position: "right",
+          },
         ],
       },
       footer: {
