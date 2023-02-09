@@ -1,12 +1,7 @@
 ---
-sidebar_position: 1
-title: 2.2 开始使用
+sidebar_position: 3
+title: 2.3 开始使用
 ---
-
-
-## 视频教程
-   [视频教程](https://www.bilibili.com/video/BV16f4y1Z75Y/)
-
 
 ## 登入系统
 1. 访问[iotgateway](http://localhost:518/)后台：http://localhost:518

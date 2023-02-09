@@ -4,17 +4,6 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "硬件加持",
-    Svg: require("../../docs/hardware/images/hero.svg").default,
-    description: (
-      <>
-        Cortex-A72, 1.5GHz ARM v8 64-bit CPU；
-        emmc、4G全网通、Wi-Fi、232、485、HDMI、SD卡扩展、多网口、多USB、Bluetooth
-        5.0、ADC、继电器、蜂鸣器、IO； 当前12V DC，9月推出24V.
-      </>
-    ),
-  },
-  {
     title: "协议转换",
     Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: (
@@ -31,14 +20,25 @@ const FeatureList = [
       <>
         内置Mqtt服务端，OPCUA服务端，轻松的与MES、SCADA交互数据.
         支持IoTSharp、ThingsBoard等私有云平台.
-        持续更新以支持阿里、百度、腾讯、中移物联等公有云平台.
+        支持RPC指令，反向数据写入.
       </>
     ),
   },
   {
-    title: "双向通讯",
+    title: "企业版",
     Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
-    description: <>将遥测、属性的上传到平台；接收平台MQTT RPC指令，反向控制.</>,
+    description: <>vue前端、时序数据库、全量采集驱动、规则引擎、地代码报表、web组态等</>,
+  },
+  {
+    title: "硬件加持",
+    Svg: require("../../docs/hardware/images/hero.svg").default,
+    description: (
+      <>
+        Cortex-A72, 1.5GHz ARM v8 64-bit CPU；
+        emmc、4G全网通、Wi-Fi、232、485、HDMI、SD卡扩展、多网口、多USB、Bluetooth
+        5.0、ADC、继电器、蜂鸣器、IO； 当前12V DC，9月推出24V.
+      </>
+    ),
   },
 ];
 

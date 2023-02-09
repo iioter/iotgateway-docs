@@ -58,10 +58,13 @@ title: 1. 简介
 | ------ | ---- |---- |
 | ![微信赞赏](./images/wx-pay.jpg) | ![支付宝收款](./images/ali-pay.png) | ![支付宝收款](../static/img/wxgroup.png) |
 
+## 视频教程
+
+[https://www.bilibili.com/video/BV16f4y1Z75Y/](https://www.bilibili.com/video/BV16f4y1Z75Y/)
 
 ## 声明
 - 使用OPCUA协议**请联系OPC基金会进行授权**，产生一切**纠纷与本项目无关**
 - 请*严格*遵循**MIT**协议
 - 我们**接受并感谢**资金以及任何方式的的**赞助**，但并**不意味着我们会为您承诺或担保任何事情**
-- 若你使用IoTGateway**获利**，但对IoTGateway**毫无建树**，我们觉得这可能是自私的
+- 若你使用IoTGateway**获利**，我们希望你对IoTGateway**是有贡献的**
 - 商业版本正在开发中
