@@ -21,11 +21,11 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/iioter/iotgateway/"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/iioter/iotgateway"
   },
   "link.item.label.Gitee": {
     "message": "Gitee",
-    "description": "The label of footer link with label=Gitee linking to https://gitee.com/iioter/iotgateway/"
+    "description": "The label of footer link with label=Gitee linking to https://gitee.com/iioter/iotgateway"
   },
   "link.item.label.Blog": {
     "message": "Blog",

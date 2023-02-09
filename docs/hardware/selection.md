@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: 网关选型
+title: 5.1 网关选型
 ---
 
 ## 说明

@@ -22,10 +22,10 @@ tags: [iiotgateway, iotgateway, iot]
 
 - ![Home](Home.png)
 3. 项目地址
-* github:[iotgateway](https://github.com/iioter/iotgateway/) 
-* gitee:[iotgateway](https://gitee.com/iioter/iotgateway/)
-* 项目文档:http://iotgateway.net/
-* 在线体验:http://online.iotgateway.net/
+* github:[iotgateway](https://github.com/iioter/iotgateway) 
+* gitee:[iotgateway](https://gitee.com/iioter/iotgateway)
+* 项目文档:http://iotgateway.net
+* 在线体验:http://online.iotgateway.net
 
 ## 开源网关具有以下特点
 * ### 跨平台运行

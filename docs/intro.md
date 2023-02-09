@@ -1,26 +1,18 @@
 ---
 sidebar_position: 1
-title: IoTGateway 简介
+title: 1. 简介
 ---
 
-## [在线体验:http://online.iotgateway.net](http://online.iotgateway.net/)
-
-
-> 基于.NET6的跨平台物联网网关
-> 
-> B/S架构，可视化配置
-> 
-> 南向连接到你的任何设备和系统(如PLC、扫码枪、CNC、数据库、串口设备、上位机、OPC Server、OPC UA Server、Mqtt Server等)
-> 
-> 北向连接Thingsboard、IoTSharp、ThingsCloud或您自己的物联网平台进行双向数据通讯
-> 
-> 当然也可以进行边缘计算
->
+- 基于.NET6的跨平台工业物联网网关
+- B/S架构，可视化配置
+- 南向连接到你的任何设备和系统(如PLC、扫码枪、CNC、数据库、串口设备、上位机、OPC Server、OPC UA Server、Mqtt Server等)
+- 北向连接Thingsboard、IoTSharp或您自己的物联网平台（或MES、SCADA等）进行双向数据通讯
+- 当然也可以进行边缘计算
 ## 交流
 
-| 公众号:工业物联网网关 |    [QQ群:895199932](https://jq.qq.com/?_wv=1027&k=mus0CV0W)  |
-| ------ | ---- |
-| ![wx](../static/img/wxgroup.png) | ![qq](./images/qq.png) |
+| 微信扫我进群 |   [QQ群:895199932](https://jq.qq.com/?_wv=1027&k=mus0CV0W)  |公众号:工业物联网网关 |  
+| ------ | ------ | ---- |
+| ![wx](../static/img/wxgroup.png) | ![qq](../static/img/qq.png) | ![wx](../static/img/qrcode.jpg) |
 
 ## 南向
 - 支持设备数据写入
@@ -34,7 +26,7 @@ title: IoTGateway 简介
 - 驱动支持二次开发
 
 ## 北向
-- thingsboard、iotsharp、thingscloud等第三方平台
+- thingsboard、iotsharp第三方平台
 - 遥测、属性上传
 - RPC反向控制
   ![rpc](./images/rpc.gif)
@@ -57,12 +49,19 @@ title: IoTGateway 简介
 ![scada](./images/scada.gif)
 ![scada-config](./images/scada-config.png)
 
-## 免责声明
-- ## 生产环境使用请做好评估
-- ## 项目中OPCUA相关功能仅用作学习及测试
-- ## 如使用OPCUA协议请联系OPC基金会进行授权，产生一切纠纷与本项目无关
 
-## 打赏请留言
-|  微信 | 支付宝 |
-| ----- | ---- |
-| ![wx-pay](./images/wx-pay.jpg) | ![ali-pay](./images/ali-pay.png) |
+## Star&Fork
+你点亮的小星星，是我不断更新的动力。
+
+## 赞助请留言
+|   微信赞赏 |   支付宝赞赏  |   个人微信  |
+| ------ | ---- |---- |
+| ![微信赞赏](./images/wx-pay.jpg) | ![支付宝收款](./images/ali-pay.png) | ![支付宝收款](../../00000-iotgateway-docs/static/img/wxgroup.png) |
+
+
+## 声明
+- 使用OPCUA协议**请联系OPC基金会进行授权**，产生一切**纠纷与本项目无关**
+- 请*严格*遵循**MIT**协议
+- 我们**接受并感谢**资金以及任何方式的的**赞助**，但并**不意味着我们会为您承诺或担保任何事情**
+- 若你使用IoTGateway**获利**，但对IoTGateway**毫无建树**，我觉得这可能是自私的
+- 商业版本正在开发中

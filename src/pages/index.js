@@ -27,9 +27,9 @@ function HomepageHeader() {
           |
           <Link
             className="button button--secondary button--lg"
-            href="http://online.iotgateway.net/"
+            href="/docs/enterprise/intro"
           >
-            在线体验
+            企业版
           </Link>
           |
           <Link
@@ -37,13 +37,6 @@ function HomepageHeader() {
             href="/docs/hardware/selection"
           >
             硬件选型
-          </Link>
-          |
-          <Link
-            className="button button--secondary button--lg"
-            href="https://iotgateway.taobao.com/"
-          >
-            淘宝店          
           </Link>
         </div>
         <div className={styles.buttons}>

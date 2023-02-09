@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "IoTGateway",
   tagline: "基于.NET 6.0的跨平台工业物联网网关",
-  url: "https://gitee.com/iioter/iotgateway",
+  url: "http://iotgateway.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -69,23 +69,28 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/iioter/iotgateway/",
+            href: "https://github.com/iioter/iotgateway",
             label: "GitHub",
             position: "right",
           },
           {
-            href: "https://gitee.com/iioter/iotgateway/",
+            href: "https://gitee.com/iioter/iotgateway",
             label: "Gitee",
             position: "right",
           },
           {
-            href: "https://iotgateway.taobao.com/",
+            href: "https://iotgateway.taobao.com",
             label: "淘宝店",
             position: "right",
           },
           {
-            href: "https://space.bilibili.com/68774245/",
+            href: "https://space.bilibili.com/68774245",
             label: "视频教程",
+            position: "right",
+          },
+          {
+            href: "http://online.iotgateway.net/",
+            label: "在线体验",
             position: "right",
           },
         ],
@@ -111,11 +116,11 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/iioter/iotgateway/",
+                href: "https://github.com/iioter/iotgateway",
               },
               {
                 label: "Gitee",
-                href: "https://gitee.com/iioter/iotgateway/",
+                href: "https://gitee.com/iioter/iotgateway",
               },
             ],
           },
@@ -128,12 +133,12 @@ const config = {
               },
               {
                 label: "淘宝买硬件",
-                to: "https://iotgateway.taobao.com/",
+                to: "https://iotgateway.taobao.com",
               },
             ],
           },
         ],
-        copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021013661号</a>',
+        copyright: '<a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2021013661号</a>',
       },
       prism: {
         theme: lightCodeTheme,
