@@ -16,7 +16,7 @@ title: 6.3 全量驱动
 
 ## Robot
 
-包括但不限于EFFORT、KUKA、安川、ABB、发那科、埃斯顿、现代、雅马哈等
+> 包括但不限于EFFORT、KUKA、安川、ABB、发那科、埃斯顿、现代、雅马哈等
 
 ## 电力系统
 > IEC104、DLT645

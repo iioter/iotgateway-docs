@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-title: 6.3 时序数据库
+sidebar_position: 4
+title: 6.4 时序数据库
 ---
 
 集成最先进的时序数据库

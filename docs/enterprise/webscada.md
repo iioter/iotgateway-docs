@@ -1,6 +1,6 @@
 ---
-sidebar_position: 6
-title: 6.6 web组态
+sidebar_position: 7
+title: 6.7 web组态
 ---
 
 ## 组态后台
