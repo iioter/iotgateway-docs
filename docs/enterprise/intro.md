@@ -9,6 +9,18 @@ title: 6.1 介绍
 - 企业版通过**无锡艾欧物联网科技有限公司**运作
 - 技术服务、硬件购买支持对公转账、开票
 
+## 企业网关在线体验
+[http://iotgateway.net:5518](http://iotgateway.net:5518)
+> 用户名：admin
+>
+> 密码：iotgateway.net
+
+## 企业组态在线体验
+[http://iotgateway.net:2020/login.html](http://iotgateway.net:2020/login.html)
+> 用户名：admin
+>
+> 密码：iotgateway.net
+
 ## 相关荣誉
 
 - .NET20周年云原生开发挑战赛一等奖
@@ -17,7 +29,7 @@ title: 6.1 介绍
 
 ## 部分企业客户
 
-国家电网(电力)、歌尔股份(3C)、经纬纺机(央企上市)、BOSCH(汽车零部件)、凌坤智能(AGV)、容恒、卧晨、惠斯通、益信......
+国家电网(电力)、中国移动、歌尔股份(3C)、经纬纺机(央企上市)、BOSCH(汽车零部件)、凌坤智能(AGV)、容恒、卧晨、惠斯通、益信......
 
 ## 前后端分离
 

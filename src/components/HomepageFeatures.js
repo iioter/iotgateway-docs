@@ -27,7 +27,7 @@ const FeatureList = [
   {
     title: "企业版",
     Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
-    description: <>vue前端、时序数据库、全量采集驱动、规则引擎、地代码报表、web组态等</>,
+    description: <>vue前端、时序数据库、全量采集驱动、规则引擎、低代码报表、web组态等</>,
   },
   {
     title: "硬件加持",
@@ -36,7 +36,7 @@ const FeatureList = [
       <>
         Cortex-A72, 1.5GHz ARM v8 64-bit CPU；
         emmc、4G全网通、Wi-Fi、232、485、HDMI、SD卡扩展、多网口、多USB、Bluetooth
-        5.0、ADC、继电器、蜂鸣器、IO； 当前12V DC，9月推出24V.
+        5.0、ADC、继电器、蜂鸣器、IO； 当前9-36V DC宽压输入.
       </>
     ),
   },
