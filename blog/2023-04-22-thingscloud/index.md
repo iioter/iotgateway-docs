@@ -5,7 +5,7 @@ authors: [iioter]
 tags: [iiotgateway, thingscloud, iot]
 ---
 
-# 10分钟、零代码搭建物联网应用
+# 5分钟、零代码搭建物联网应用
 
  [ThingsCloud](https://www.thingscloud.xyz/)作为PaaS 平台，广泛部署在全球主流云计算基础设施平台上，也提供私有部署方式。在设备和用户之间建立**开箱即用**的云平台和云应用，实现数据采集、实时控制、数据可视化、开放 API，构建灵活强大的物联网应用。
  ## 成果展示
