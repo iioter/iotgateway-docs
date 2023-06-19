@@ -1,7 +1,15 @@
 ---
-sidebar_position: 7
-title: 6.7 web组态
+sidebar_position: 6
+title: 6.6 web组态
 ---
+
+
+## web组态在线体验
+[http://iotgateway.net:2020/login.html](http://iotgateway.net:2020/login.html)
+> 用户名：admin
+>
+> 密码：iotgateway.net
+
 - 动态智能可视化工具，通过拖拽、绑定数据的方式完成设备组态、大屏等功能。
 - 帮助企业实现集动态交互、丰富展示、数据管理等一体的全功能可视化产品，为物联网、工业互联网、电力能源、水利工程、智慧农业、智慧医疗、智慧城市等智能可视化场景提供智能可视化解决方案。
 

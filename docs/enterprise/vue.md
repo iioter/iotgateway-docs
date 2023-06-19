@@ -1,7 +1,14 @@
 ---
 sidebar_position: 2
-title: 6.2 vue前端
+title: 6.2 企业版网关
 ---
+
+## 企业网关在线体验
+[http://iotgateway.net:5518](http://iotgateway.net:5518)
+> 用户名：admin
+>
+> 密码：iotgateway.net
+
 eLink（easyLink、edgeLink）网关，对标行业顶级网关，源码交付。有以下特性：
 
 ## vue前后端分离
