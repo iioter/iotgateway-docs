@@ -223,7 +223,7 @@ namespace DriverSimTcpClient
                 {
                     //发送请求
                     _client?.Write(_sendCmd);
-                    //等待恢复，这里可以优化
+                    //等待回复，这里可以优化
                     Thread.Sleep(Timeout);
                     if (_latestRcvData == null)
                     {
