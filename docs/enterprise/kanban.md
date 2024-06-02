@@ -8,7 +8,7 @@ title: 6.7 低代码大屏
 [http://iotgateway.net:6688](http://iotgateway.net:6688)
 > 用户名：admin
 >
-> 密码：000000
+> 密码：iotgateway.net
 
 
 - 低代码数据可视化开发平台

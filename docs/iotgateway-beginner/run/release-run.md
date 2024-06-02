@@ -11,7 +11,7 @@ title: 2.2.1 发行包运行
 
 | 版本 | Windows-x64 | Windows-x86 | Linu-x64 | Linux-Arm64 | Linux-Arm |
 | -- | -- | -- | -- | -- | -- |
-| 社区版 | [下载v2.0.0](https://gitee.com/iioter/iotgateway/releases/download/v2.0.0/iotgateway-2.0.0-win-x64.zip) | [下载v2.0.0](https://gitee.com/iioter/iotgateway/releases/download/v2.0.0/iotgateway-2.0.0-win-x86.zip) | [下载v2.0.0](https://gitee.com/iioter/iotgateway/releases/download/v2.0.0/iotgateway-2.0.0-linux-x64.zip) | [下载v2.0.0](https://gitee.com/iioter/iotgateway/releases/download/v2.0.0/iotgateway-2.0.0-linux-arm64.zip) | [下载v2.0.0](https://gitee.com/iioter/iotgateway/releases/download/v2.0.0/iotgateway-2.0.0-linux-arm.zip) |
+| 社区版 | [下载v2.1.1](https://gitee.com/iioter/iotgateway/releases/download/v2.1.1/iotgateway-2.1.1-win-x64.zip) | [下载v2.1.1](https://gitee.com/iioter/iotgateway/releases/download/v2.1.1/iotgateway-2.1.1-win-x86.zip) | [下载v2.1.1](https://gitee.com/iioter/iotgateway/releases/download/v2.1.1/iotgateway-2.1.1-linux-x64.zip) | [下载v2.1.1](https://gitee.com/iioter/iotgateway/releases/download/v2.1.1/iotgateway-2.1.1-linux-arm64.zip) | [下载v2.1.1](https://gitee.com/iioter/iotgateway/releases/download/v2.1.1/iotgateway-2.1.1-linux-arm.zip) |
 
 ### 发布记录
 [详见：https://gitee.com/iioter/iotgateway/releases](https://gitee.com/iioter/iotgateway/releases)

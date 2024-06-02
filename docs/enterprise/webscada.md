@@ -20,6 +20,11 @@ title: 6.6 web组态
 ## 组态后台
 > 通过拖拽和数据绑定的方式完成组态
 
+## 反向控制
+![反向控制](./images/web组态反控.gif)
+
+
+
 ## 丰富的图元
 ![scadaconf](./images/scadaconf.png)
 

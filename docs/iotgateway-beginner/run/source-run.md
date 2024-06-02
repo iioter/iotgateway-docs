@@ -34,6 +34,6 @@ git clone https://gitee.com/iioter/iotgateway.git
 
 Chrome浏览器访问 `http://localhost:518/`
 
-用户名: `admin`  密码: `000000`
+用户名: `admin`  密码: `iotgateway.net`
 
 ![登入页面](../images/iotgateway.png)
