@@ -27,6 +27,10 @@
     "message": "Gitee",
     "description": "The label of footer link with label=Gitee linking to https://gitee.com/iioter/iotgateway"
   },
+  "link.item.label.GitCode": {
+    "message": "GitCode",
+    "description": "The label of footer link with label=GitCode linking to https://gitcode.com/iioiot/iotgateway"
+  },
   "link.item.label.Blog": {
     "message": "Blog",
     "description": "The label of footer link with label=Blog linking to /blog"

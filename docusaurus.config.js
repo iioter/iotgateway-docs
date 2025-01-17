@@ -79,6 +79,11 @@ const config = {
             position: "right",
           },
           {
+            href: "https://gitcode.com/iioiot/iotgateway",
+            label: "GitCode",
+            position: "right",
+          },
+          {
             href: "https://iotgateway.taobao.com",
             label: "淘宝店",
             position: "right",
@@ -112,7 +117,7 @@ const config = {
             ],
           },
           {
-            title: "社区",
+            title: "源码",
             items: [
               {
                 label: "GitHub",
@@ -121,6 +126,10 @@ const config = {
               {
                 label: "Gitee",
                 href: "https://gitee.com/iioter/iotgateway",
+              },
+              {
+                label: "GitCode",
+                href: "https://gitcode.com/iioiot/iotgateway",
               },
             ],
           },
