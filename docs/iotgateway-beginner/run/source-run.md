@@ -6,7 +6,7 @@ title: 2.2.3 源码运行
 ## 准备
 
 :::danger 注意
-使用Visual Studio 2022版本，因为要使用.NET6
+使用Visual Studio 2022版本，因为要使用.NET8
 :::
 ## 获取源码
 根据你的网络环境，访问[github](https://github.com/iioter/iotgateway) 或[gitee](https://gitee.com/iioter/iotgateway) ,
@@ -32,7 +32,7 @@ git clone https://gitee.com/iioter/iotgateway.git
 
 ## 访问网关后台
 
-Chrome浏览器访问 `http://localhost:518/`
+Chrome浏览器访问 `http://localhost:518/Login/Login`
 
 用户名: `admin`  密码: `iotgateway.net`
 

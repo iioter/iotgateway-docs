@@ -5,7 +5,7 @@ authors: [iioter]
 tags: [iiotgateway, Traces, iot]
 ---
 
-# 探索链路追踪在.NET6工业物联网项目的应用
+# 探索链路追踪在.NET8工业物联网项目的应用
 > ExploringIoTDistributedTracingNet6
 > 
 ![Jaeger](./images/jaeger.png)

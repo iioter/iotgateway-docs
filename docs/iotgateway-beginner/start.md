@@ -4,7 +4,7 @@ title: 2.3 开始使用
 ---
 
 ## 登入系统
-1. 访问[iotgateway](http://localhost:518/)后台：http://localhost:518
+1. 访问[iotgateway](http://localhost:518/Login/Login)后台：http://localhost:518/Login/Login
 ![登录](https://user-images.githubusercontent.com/29589505/145705166-d5818557-4ba1-4e7b-b8d8-8f5f4b28868f.png)
 2. 用户名 admin,密码 iotgateway.net
 ![首页](https://user-images.githubusercontent.com/29589505/145705168-94b3ff0c-2f5c-4a31-8e83-c2ed799320ce.png)

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: 1. 简介
 ---
 
-- 基于.NET6的跨平台工业物联网网关
+- 基于.NET8的跨平台工业物联网网关
 - B/S架构，可视化配置
 - 南向连接到你的任何设备和系统(如PLC、扫码枪、CNC、数据库、串口设备、上位机、OPC Server、OPC UA Server、Mqtt Server等)
 - 北向连接Thingsboard、IoTSharp或您自己的物联网平台（或MES、SCADA等）进行双向数据通讯
