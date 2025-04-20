@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: 5.2 性能测试
+sidebar_position: 4
+title: 5.4 性能测试
 ---
 
 ## 背景

@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const config = {
   title: "IoTGateway",
-  tagline: "基于.NET 8.0的跨平台工业物联网网关",
+  tagline: "开源工业物联网网关",
   url: "http://iotgateway.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
