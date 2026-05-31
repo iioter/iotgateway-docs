@@ -219,6 +219,10 @@
         "message": "微信公众号",
         "description": "WeChat official account label"
     },
+    "homepage.tagline": {
+        "message": "开源工业物联网网关 - 协议转换、边缘计算与云端连接",
+        "description": "The homepage tagline"
+    },
     "homepage.meta.description": {
         "message": "IoTGateway - 基于.NET8的跨平台开源工业物联网网关。B/S架构，可视化配置，工业数据采集与协议转换。",
         "description": "The homepage meta description"

@@ -1,4 +1,8 @@
 {
+  "homepage.tagline": {
+    "message": "Open-Source Industrial IoT Gateway - Protocol Conversion, Edge Computing & Cloud Connectivity",
+    "description": "The homepage tagline"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"

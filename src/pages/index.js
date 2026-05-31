@@ -16,7 +16,13 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          {translate({
+            id: "homepage.tagline",
+            message: "Open-Source Industrial IoT Gateway - Protocol Conversion, Edge Computing & Cloud Connectivity",
+            description: "The homepage tagline",
+          })}
+        </p>
 
         <div className={styles.buttons}>
           <Link
