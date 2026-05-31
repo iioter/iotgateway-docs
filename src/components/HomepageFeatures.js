@@ -1,43 +1,55 @@
 import React from "react";
 import clsx from "clsx";
+import Translate, { translate } from "@docusaurus/Translate";
 import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "协议转换",
+    title: translate({ id: "feature.protocol.title", message: "Protocol Conversion" }),
     Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: (
-      <>
-        通过可视化配置，轻松的连接到你的任何设备和系统(如PLC、扫码枪、CNC、数据库、串口设备、上位机、OPC
-        Server、OPC UA Server、Mqtt Server等).
-      </>
+      <Translate
+        id="feature.protocol.description"
+        description="Protocol conversion feature description"
+      >
+        Connect to any device or system through visual configuration — PLCs, barcode scanners, CNCs, databases, serial devices, SCADA, OPC Server, OPC UA Server, MQTT Server, and more.
+      </Translate>
     ),
   },
   {
-    title: "云端连接",
+    title: translate({ id: "feature.cloud.title", message: "Cloud Connectivity" }),
     Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
     description: (
-      <>
-        内置Mqtt服务端，OPCUA服务端，轻松的与MES、SCADA交互数据.
-        支持IoTSharp、ThingsBoard等私有云平台.
-        支持RPC指令，反向数据写入.
-      </>
+      <Translate
+        id="feature.cloud.description"
+        description="Cloud connectivity feature description"
+      >
+        Built-in MQTT server and OPC UA server for seamless data exchange with MES and SCADA. Supports IoTSharp, ThingsBoard and other private cloud platforms. RPC commands and reverse data writing supported.
+      </Translate>
     ),
   },
   {
-    title: "企业版",
+    title: translate({ id: "feature.enterprise.title", message: "Enterprise Edition" }),
     Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
-    description: <>vue前端、时序数据库、全量采集驱动、规则引擎、低代码报表、web组态等</>,
+    description: (
+      <Translate
+        id="feature.enterprise.description"
+        description="Enterprise feature description"
+      >
+        Vue front-end, time-series database, full collection drivers, rule engine, low-code reports, web SCADA, and more.
+      </Translate>
+    ),
   },
   {
-    title: "硬件加持",
+    title: translate({ id: "feature.hardware.title", message: "Industrial Hardware" }),
     Svg: require("../../docs/hardware/images/hero.svg").default,
     description: (
-      <>
-        Cortex-A72, 1.5GHz ARM v8 64-bit CPU；
-        emmc、4G全网通、Wi-Fi、232、485、HDMI、SD卡扩展、多网口、多USB、Bluetooth
-        5.0、ADC、继电器、蜂鸣器、IO； 当前9-36V DC宽压输入.
-      </>
+      <Translate
+        id="feature.hardware.description"
+        description="Hardware feature description"
+      >
+        Cortex-A72, 1.5GHz ARM v8 64-bit CPU; eMMC, 4G LTE, Wi-Fi, RS-232, RS-485, HDMI, SD card expansion, multiple Ethernet ports, USB, Bluetooth 5.0, ADC, relay, buzzer, GPIO; 9-36V DC wide-range power input.
+      </Translate>
     ),
   },
 ];

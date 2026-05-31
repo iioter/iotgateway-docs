@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Translate, { translate } from "@docusaurus/Translate";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import WXGroup from "../../static/img/wxgroup.png";
@@ -22,50 +23,54 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            项目文档
+            <Translate id="homepage.button.docs">Documentation</Translate>
           </Link>
           |
           <Link
             className="button button--secondary button--lg"
             href="/docs/enterprise/intro"
           >
-            企业版
+            <Translate id="homepage.button.enterprise">Enterprise</Translate>
           </Link>
           |
           <Link
             className="button button--secondary button--lg"
             href="/docs/hardware/selection"
           >
-            硬件选型
+            <Translate id="homepage.button.hardware">Hardware</Translate>
           </Link>
         </div>
         <div className={styles.buttons}>
           <table>
             <thead>
               <tr>
-                <th>微信扫我进群</th>
+                <th>
+                  <Translate id="homepage.contact.wechat">WeChat Group</Translate>
+                </th>
                 <th>
                   <a
                     style={{ color: "white" }}
                     target="_blank"
                     href="https://jq.qq.com/?_wv=1027&k=mus0CV0W"
                   >
-                    QQ群(895199932)
+                    <Translate id="homepage.contact.qq">QQ Group (895199932)</Translate>
                   </a>
                 </th>
-                <th>微信公众号</th>
+                <th>
+                  <Translate id="homepage.contact.official">WeChat Official Account</Translate>
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>
-                  <img src={WXGroup} width="150" alt="微信扫我进群" />
+                  <img src={WXGroup} width="150" alt="WeChat Group" />
                 </td>
                 <td>
-                  <img src={QQ} width="150" alt="QQ群(712105424)" />
+                  <img src={QQ} width="150" alt="QQ Group" />
                 </td>
                 <td>
-                  <img src={WX} width="150" alt="微信公众号" />
+                  <img src={WX} width="150" alt="WeChat Official Account" />
                 </td>
               </tr>
             </tbody>
@@ -82,7 +87,11 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description={translate({
+        id: "homepage.meta.description",
+        message: "IoTGateway - Open-source Industrial IoT Gateway built on .NET8. Cross-platform, B/S architecture, visual configuration for industrial data collection and protocol conversion.",
+        description: "The homepage meta description",
+      })}
     >
       <HomepageHeader />
       <main>

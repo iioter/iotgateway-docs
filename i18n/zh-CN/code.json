@@ -41,19 +41,19 @@
     },
     "theme.blog.paginator.newerEntries": {
         "message": "Newer Entries",
-        "description": "The label used to navigate to the newer blog posts page (previous page)"
+        "description": "The label used to navigate to the newer blog posts page"
     },
     "theme.blog.paginator.olderEntries": {
         "message": "Older Entries",
-        "description": "The label used to navigate to the older blog posts page (next page)"
+        "description": "The label used to navigate to the older blog posts page"
     },
     "theme.blog.post.readingTime.plurals": {
         "message": "One min read|{readingTime} min read",
-        "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+        "description": "Pluralized label for readingTime"
     },
     "theme.blog.post.readMore": {
         "message": "Read More",
-        "description": "The label used in blog post item excerpts to link to full blog posts"
+        "description": "The label used in blog post item excerpts"
     },
     "theme.blog.post.paginator.navAriaLabel": {
         "message": "Blog post page navigation",
@@ -73,7 +73,7 @@
     },
     "theme.blog.post.plurals": {
         "message": "One post|{count} posts",
-        "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+        "description": "Pluralized label for count posts"
     },
     "theme.blog.tagTitle": {
         "message": "{nPosts} tagged with \"{tagName}\"",
@@ -97,11 +97,11 @@
     },
     "theme.docs.sidebar.expandButtonTitle": {
         "message": "Expand sidebar",
-        "description": "The ARIA label and title attribute for expand button of doc sidebar"
+        "description": "The ARIA label for expand button of doc sidebar"
     },
     "theme.docs.sidebar.expandButtonAriaLabel": {
         "message": "Expand sidebar",
-        "description": "The ARIA label and title attribute for expand button of doc sidebar"
+        "description": "The ARIA label for expand button of doc sidebar"
     },
     "theme.docs.paginator.navAriaLabel": {
         "message": "Docs pages navigation",
@@ -129,7 +129,7 @@
     },
     "theme.docs.tagDocListPageTitle.nDocsTagged": {
         "message": "One doc tagged|{count} docs tagged",
-        "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+        "description": "Pluralized label for count docs tagged"
     },
     "theme.docs.tagDocListPageTitle": {
         "message": "{nDocsTagged} with \"{tagName}\"",
@@ -137,19 +137,19 @@
     },
     "theme.docs.versions.unreleasedVersionLabel": {
         "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
-        "description": "The label used to tell the user that he's browsing an unreleased doc version"
+        "description": "The label for unreleased doc version"
     },
     "theme.docs.versions.unmaintainedVersionLabel": {
         "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
-        "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+        "description": "The label for unmaintained doc version"
     },
     "theme.docs.versions.latestVersionSuggestionLabel": {
         "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
-        "description": "The label used to tell the user to check the latest version"
+        "description": "The label to check the latest version"
     },
     "theme.docs.versions.latestVersionLinkLabel": {
         "message": "latest version",
-        "description": "The label used for the latest version suggestion link label"
+        "description": "The label for latest version suggestion link"
     },
     "theme.common.editThisPage": {
         "message": "在线修改",
@@ -161,27 +161,27 @@
     },
     "theme.lastUpdated.atDate": {
         "message": " on {date}",
-        "description": "The words used to describe on which date a page has been last updated"
+        "description": "The words used to describe on which date"
     },
     "theme.lastUpdated.byUser": {
         "message": " by {user}",
-        "description": "The words used to describe by who the page has been last updated"
+        "description": "The words used to describe by who"
     },
     "theme.lastUpdated.lastUpdatedAtBy": {
         "message": "Last updated{atDate}{byUser}",
-        "description": "The sentence used to display when a page has been last updated, and by who"
+        "description": "When a page has been last updated"
     },
     "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
         "message": "← Back to main menu",
-        "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+        "description": "The label of the back button to return to main menu"
     },
     "theme.navbar.mobileVersionsDropdown.label": {
         "message": "Versions",
-        "description": "The label for the navbar versions dropdown on mobile view"
+        "description": "The label for the navbar versions dropdown on mobile"
     },
     "theme.common.skipToMainContent": {
         "message": "Skip to main content",
-        "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+        "description": "The skip to content label"
     },
     "theme.tags.tagsListLabel": {
         "message": "Tags:",
@@ -189,10 +189,70 @@
     },
     "theme.TOCCollapsible.toggleButtonLabel": {
         "message": "On this page",
-        "description": "The label used by the button on the collapsible TOC component"
+        "description": "The label used by the button on the collapsible TOC"
     },
     "theme.tags.tagsPageTitle": {
         "message": "Tags",
         "description": "The title of the tag list page"
+    },
+    "homepage.button.docs": {
+        "message": "项目文档",
+        "description": "Homepage button to docs"
+    },
+    "homepage.button.enterprise": {
+        "message": "企业版",
+        "description": "Homepage button to enterprise"
+    },
+    "homepage.button.hardware": {
+        "message": "硬件选型",
+        "description": "Homepage button to hardware"
+    },
+    "homepage.contact.wechat": {
+        "message": "微信扫我进群",
+        "description": "WeChat group QR label"
+    },
+    "homepage.contact.qq": {
+        "message": "QQ群(895199932)",
+        "description": "QQ group label"
+    },
+    "homepage.contact.official": {
+        "message": "微信公众号",
+        "description": "WeChat official account label"
+    },
+    "homepage.meta.description": {
+        "message": "IoTGateway - 基于.NET8的跨平台开源工业物联网网关。B/S架构，可视化配置，工业数据采集与协议转换。",
+        "description": "The homepage meta description"
+    },
+    "feature.protocol.title": {
+        "message": "协议转换",
+        "description": "Protocol conversion feature title"
+    },
+    "feature.protocol.description": {
+        "message": "通过可视化配置，轻松的连接到你的任何设备和系统(如PLC、扫码枪、CNC、数据库、串口设备、上位机、OPC Server、OPC UA Server、Mqtt Server等).",
+        "description": "Protocol conversion feature description"
+    },
+    "feature.cloud.title": {
+        "message": "云端连接",
+        "description": "Cloud connectivity feature title"
+    },
+    "feature.cloud.description": {
+        "message": "内置Mqtt服务端，OPCUA服务端，轻松的与MES、SCADA交互数据. 支持IoTSharp、ThingsBoard等私有云平台. 支持RPC指令，反向数据写入.",
+        "description": "Cloud connectivity feature description"
+    },
+    "feature.enterprise.title": {
+        "message": "企业版",
+        "description": "Enterprise feature title"
+    },
+    "feature.enterprise.description": {
+        "message": "vue前端、时序数据库、全量采集驱动、规则引擎、低代码报表、web组态等",
+        "description": "Enterprise feature description"
+    },
+    "feature.hardware.title": {
+        "message": "硬件加持",
+        "description": "Hardware feature title"
+    },
+    "feature.hardware.description": {
+        "message": "Cortex-A72, 1.5GHz ARM v8 64-bit CPU；emmc、4G全网通、Wi-Fi、232、485、HDMI、SD卡扩展、多网口、多USB、Bluetooth 5.0、ADC、继电器、蜂鸣器、IO； 当前9-36V DC宽压输入.",
+        "description": "Hardware feature description"
     }
 }
