@@ -11,16 +11,16 @@ eLink (easyLink, edgeLink) gateway, benchmarked against industry-leading gateway
 
 ## Vue Front-End Separation
 Device tree single-page interface covers almost all functionality.
-![Vue front-end](./images/vue.png)
+![Vue front-end](@site/docs/enterprise/images/vue.png)
 
 ## Standard WebAPI
-![WebAPI](./images/api.png)
+![WebAPI](@site/docs/enterprise/images/api.png)
 
 ## Host Metrics Monitoring
-![Telemetry](./images/telemetry.png)
+![Telemetry](@site/docs/enterprise/images/telemetry.png)
 
 ## Multi-Channel Northbound Output
-![Northbound](./images/north.png)
+![Northbound](@site/docs/enterprise/images/north.png)
 
 ## Relational Database Wide-Table Storage
-![SQL](./images/sql.png)
+![SQL](@site/docs/enterprise/images/sql.png)

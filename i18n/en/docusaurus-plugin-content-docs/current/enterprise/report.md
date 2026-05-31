@@ -4,10 +4,10 @@ title: 6.8 Low-Code Reports
 ---
 
 ## Report Design
-![Design](./images/design1.png)
-![Design](./images/design2.png)
+![Design](@site/docs/enterprise/images/design1.png)
+![Design](@site/docs/enterprise/images/design2.png)
 
 ## Preview
-![Report](./images/demo1.png)
-![Report](./images/demo2.png)
-![Report](./images/demo3.png)
+![Report](@site/docs/enterprise/images/demo1.png)
+![Report](@site/docs/enterprise/images/demo2.png)
+![Report](@site/docs/enterprise/images/demo3.png)

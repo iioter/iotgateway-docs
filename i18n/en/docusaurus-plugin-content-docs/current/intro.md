@@ -18,11 +18,11 @@ title: 1. Introduction
 ## Southbound
 
 - Support device data writing
-  ![set-variable](./images/set-variable.png)
+  ![set-variable](@site/docs/images/set-variable.png)
 - Support calculation expressions
-  ![express](./images/express.png)
+  ![express](@site/docs/images/express.png)
 - Support change-triggered upload and scheduled archiving
-  ![change-upload](./images/change-upload.png)
+  ![change-upload](@site/docs/images/change-upload.png)
 
 - Support Mitsubishi PLC, full Modbus protocol suite, Omron PLC, OPC UA Client, Siemens PLC, Allen-Bradley PLC, MT machine tools
 - Driver SDK for custom driver development
@@ -32,27 +32,27 @@ title: 1. Introduction
 - ThingsBoard, IoTSharp and other third-party platform integration
 - Telemetry and attribute upload
 - RPC reverse control
-  ![rpc](./images/rpc.gif)
+  ![rpc](@site/docs/images/rpc.gif)
 
 ## Built-in Services
 
 - Built-in MQTT Server (port 1888, 1888/mqtt), with WebSocket-MQTT support for direct MES/SCADA connectivity
-  ![mqtt](./images/mqtt.png)
+  ![mqtt](@site/docs/images/mqtt.png)
 - Built-in OPC UA Server (opc.tcp://localhost:62541/Quickstarts/ReferenceServer) — enables inter-device communication via OPC UA
-  ![opcua](./images/opcua.png)
+  ![opcua](@site/docs/images/opcua.png)
 - Built-in Modbus Slave (device simulator), port 503
 
 ## Showcase
 
 - WebSocket real-time data refresh
-![variables](./images/variables.gif)
+![variables](@site/docs/images/variables.gif)
 
 - 3D Digital Twin Demo
-![3d](./images/3d.gif)
+![3d](@site/docs/images/3d.gif)
 
 - Web SCADA project integration
-![scada](./images/scada.gif)
-![scada-config](./images/scada-config.png)
+![scada](@site/docs/images/scada.gif)
+![scada-config](@site/docs/images/scada-config.png)
 
 
 ## Star & Fork
@@ -61,7 +61,7 @@ Your stars are the motivation that keeps us updating.
 ## Sponsorship
 |   WeChat Reward |   Alipay Reward  |   Personal WeChat  |
 | ------ | ---- |---- |
-| ![WeChat Reward](./images/wx-pay.jpg) | ![Alipay](./images/ali-pay.png) | ![Personal WeChat](/img/wxgroup.png) |
+| ![WeChat Reward](@site/docs/images/wx-pay.jpg) | ![Alipay](@site/docs/images/ali-pay.png) | ![Personal WeChat](/img/wxgroup.png) |
 
 ## Video Tutorials
 

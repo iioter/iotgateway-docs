@@ -9,4 +9,4 @@ title: Product Introduction
 - **3× Gigabit Ethernet**, **9× RS485**, **6× Relay**, **9× Opto-isolated Input**
 - RTC, programmable LED, 4G/LTE, WiFi6+BT, Mini-PCIe expansion
 
-![B300](./images/b300-1.png)
+![B300](@site/docs/hardware/B300/images/b300-1.png)

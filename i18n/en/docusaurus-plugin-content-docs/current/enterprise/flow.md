@@ -7,9 +7,9 @@ title: 6.5 Rule Flow
 [http://iotgateway.net:11880](http://iotgateway.net:11880)
 
 ## Low-Code Data Processing
-![Flow](./images/flow.png)
+![Flow](@site/docs/enterprise/images/flow.png)
 
 ## Dynamic WebAPI
-![Flow API](./images/flow-api.png)
+![Flow API](@site/docs/enterprise/images/flow-api.png)
 
 ## Flexible alerting and unlimited integration possibilities.
