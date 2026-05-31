@@ -1,0 +1,46 @@
+{
+  "link.title.Tutorial": {
+    "message": "Tutorial",
+    "description": "The title of the footer links column with title=Tutorial in the footer"
+  },
+  "link.title.Source Code": {
+    "message": "Source Code",
+    "description": "The title of the footer links column with title=Source Code in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Documentation": {
+    "message": "Documentation",
+    "description": "The label of footer link with label=Documentation linking to /docs/intro"
+  },
+  "link.item.label.Video": {
+    "message": "Video",
+    "description": "The label of footer link with label=Video linking to bilibili"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub"
+  },
+  "link.item.label.Gitee": {
+    "message": "Gitee",
+    "description": "The label of footer link with label=Gitee"
+  },
+  "link.item.label.GitCode": {
+    "message": "GitCode",
+    "description": "The label of footer link with label=GitCode"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog"
+  },
+  "link.item.label.Hardware Store": {
+    "message": "Hardware Store",
+    "description": "The label of footer link with label=Hardware Store"
+  },
+  "copyright": {
+    "message": "Copyright © IoTGateway. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

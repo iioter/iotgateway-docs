@@ -50,7 +50,7 @@ const config = {
       navbar: {
         title: "IoTGateway",
         logo: {
-          alt: "My Site Logo",
+          alt: "IoTGateway Logo",
           src: "img/logo.png",
         },
         items: [
@@ -58,7 +58,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "教程",
+            label: "Tutorial",
           },
           {
             type: "localeDropdown",
@@ -66,7 +66,7 @@ const config = {
           },
           {
             to: "/blog",
-            label: "博客",
+            label: "Blog",
             position: "left",
           },
           {
@@ -86,17 +86,17 @@ const config = {
           },
           {
             href: "https://iotgateway.taobao.com",
-            label: "淘宝店",
+            label: "Taobao Store",
             position: "right",
           },
           {
             href: "https://space.bilibili.com/68774245",
-            label: "视频教程",
+            label: "Video Tutorials",
             position: "right",
           },
           {
             href: "http://online.iotgateway.net/",
-            label: "在线体验",
+            label: "Live Demo",
             position: "right",
           },
         ],
@@ -105,10 +105,10 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "教程",
+            title: "Tutorial",
             items: [
               {
-                label: "Doc",
+                label: "Documentation",
                 to: "/docs/intro",
               },
               {
@@ -118,7 +118,7 @@ const config = {
             ],
           },
           {
-            title: "源码",
+            title: "Source Code",
             items: [
               {
                 label: "GitHub",
@@ -135,20 +135,20 @@ const config = {
             ],
           },
           {
-            title: "更多",
+            title: "More",
             items: [
               {
                 label: "Blog",
                 to: "/blog",
               },
               {
-                label: "淘宝买硬件",
+                label: "Hardware Store",
                 to: "https://iotgateway.taobao.com",
               },
             ],
           },
         ],
-        copyright: '<a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2021013661号</a>',
+        copyright: 'Copyright © IoTGateway. Built with Docusaurus.',
       },
       prism: {
         theme: lightCodeTheme,
@@ -158,13 +158,16 @@ const config = {
     }),
   i18n: {
     defaultLocale: "zh-CN",
-    locales: ["zh-CN"],
+    locales: ["zh-CN", "en"],
     localeConfigs: {
-      en: {
-        htmlLang: "zh-CN",
+      "zh-CN": {
+        label: "简体中文",
+        direction: "ltr",
       },
-      // You can omit a locale (e.g. fr) if you don't need to override the defaults
-      cn: { htmlLang: "zh-CN", direction: "ltr" },
+      en: {
+        label: "English",
+        direction: "ltr",
+      },
     },
   },
 };

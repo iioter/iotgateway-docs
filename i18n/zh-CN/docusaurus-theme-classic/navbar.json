@@ -3,9 +3,17 @@
     "message": "IoTGateway",
     "description": "The title in the navbar"
   },
-  "item.label.教程": {
+  "logo.alt": {
+    "message": "IoTGateway Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
     "message": "教程",
-    "description": "Navbar item with label 教程"
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
     "message": "GitHub",
@@ -14,5 +22,21 @@
   "item.label.Gitee": {
     "message": "Gitee",
     "description": "Navbar item with label Gitee"
+  },
+  "item.label.GitCode": {
+    "message": "GitCode",
+    "description": "Navbar item with label GitCode"
+  },
+  "item.label.Taobao Store": {
+    "message": "淘宝店",
+    "description": "Navbar item with label Taobao Store"
+  },
+  "item.label.Video Tutorials": {
+    "message": "视频教程",
+    "description": "Navbar item with label Video Tutorials"
+  },
+  "item.label.Live Demo": {
+    "message": "在线体验",
+    "description": "Navbar item with label Live Demo"
   }
 }
