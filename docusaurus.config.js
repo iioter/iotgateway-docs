@@ -7,14 +7,68 @@ const darkCodeTheme = themes.dracula;
 
 const config = {
   title: "IoTGateway",
-  tagline: "开源工业物联网网关",
-  url: "http://iotgateway.net",
+  tagline:
+    "Open-Source Industrial IoT Gateway - Protocol Conversion, Edge Computing & Cloud Connectivity",
+  url: "https://iotgateway.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "iioter", // Usually your GitHub org/user name.
   projectName: "iotgateway", // Usually your repo name.
+  headTags: [
+    {
+      tagName: "meta",
+      attributes: {
+        name: "keywords",
+        content:
+          "IoT Gateway, Industrial IoT, IIoT, OPC UA, MQTT, Modbus, PLC, SCADA, .NET8, edge computing, protocol conversion, open source, ThingsBoard, IoTSharp",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "author",
+        content: "IoTGateway Team",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "canonical",
+        href: "https://iotgateway.net/",
+      },
+    },
+    {
+      tagName: "script",
+      attributes: {
+        type: "application/ld+json",
+      },
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        name: "IoTGateway",
+        applicationCategory: "IndustrialApplication",
+        operatingSystem: "Windows, Linux, ARM",
+        description:
+          "Open-source Industrial IoT Gateway built on .NET8. Cross-platform B/S architecture with visual configuration for industrial data collection, protocol conversion, and edge computing.",
+        url: "https://iotgateway.net",
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "USD",
+        },
+        author: {
+          "@type": "Organization",
+          name: "IoTGateway",
+          url: "https://github.com/iioter",
+        },
+        license: "https://opensource.org/licenses/MIT",
+        codeRepository: "https://github.com/iioter/iotgateway",
+        programmingLanguage: "C#",
+      }),
+    },
+  ],
   scripts: [
     {
       charset: "UTF-8",
@@ -40,6 +94,17 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/blog/tags/**"],
+          filename: "sitemap.xml",
+        },
+        // Google Analytics - replace G-XXXXXXXXXX with your actual measurement ID
+        // gtag: {
+        //   trackingID: "G-XXXXXXXXXX",
+        //   anonymizeIP: true,
+        // },
       }),
     ],
   ],
@@ -47,6 +112,38 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: "og:type", content: "website" },
+        { name: "og:site_name", content: "IoTGateway" },
+        {
+          name: "og:title",
+          content: "IoTGateway - Open-Source Industrial IoT Gateway",
+        },
+        {
+          name: "og:description",
+          content:
+            "Cross-platform industrial IoT gateway built on .NET8. Protocol conversion, edge computing, MQTT, OPC UA, Modbus, PLC connectivity.",
+        },
+        {
+          name: "og:image",
+          content: "https://iotgateway.net/img/og-image.png",
+        },
+        { name: "og:url", content: "https://iotgateway.net" },
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:title",
+          content: "IoTGateway - Open-Source Industrial IoT Gateway",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Cross-platform industrial IoT gateway built on .NET8. Visual configuration for industrial data collection and protocol conversion.",
+        },
+        {
+          name: "twitter:image",
+          content: "https://iotgateway.net/img/og-image.png",
+        },
+      ],
       navbar: {
         title: "IoTGateway",
         logo: {
